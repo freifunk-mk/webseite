@@ -1,86 +1,100 @@
 /*Seiteneigenschaften*/
-body{
-	background-color:#e6e6e6;
-	padding-left:30px;
-	padding-right:30px;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:80px;
-	#font-family:Helvetica,Arial,sans-serif;
-	#line-height:1.2em;
-	#font-size:1.2em;
-	min-width:450px;
-	max-width:1440px;
-	transition:all 1s ease;
-	}
-a{
-	color:#444;
-	text-decoration:none;
-	transition:color 1s ease;
-}
-a:hover{
-	color:#000;
-}
-a.highlighter{
-	#background:rgba(0, 0, 0, 0.5);
-	padding:2px;
-	color:#fff;
-}
-.navibarbutton > a{
-	color:#fff;
-}
-a:hover > .fa{
-	color:#db0166;
+body {
+    background-color: #e6e6e6;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    #font-family: Helvetica, Arial, sans-serif;
+    #line-height: 1.2em;
+    #font-size: 1.2em;
+    min-width: 450px;
+    max-width: 1440px;
+    transition: all 1s ease;
 }
 
-#navibar{
-	position:fixed;
-	width:100%;
-	left:0px;
-	top:0px;
-	#background:#1a1a1a;
-	box-shadow: grey 5px 0px 5px;
-	z-index:9999;
-	padding-bottom:5px;
-	background-image: url("http://www.freifunk-mk.de/gfx/ff_header.png");
+a {
+    color: #444;
+    text-decoration: none;
+    transition: color 1s ease;
 }
-#navcenter{
-	max-width:1440px;
-	margin-left:auto;
-	margin-right:auto;
+
+a:hover {
+    color: #000;
 }
-.navibarbutton{
-	float:left;
-	margin-left:15px;
-	margin-top:10px;
-	font-size:28px;
-	background-color: rgba(0, 0, 0, 0.5);
-	padding:3px;
+
+a.highlighter {
+    #background: rgba(0, 0, 0, 0.5);
+    padding: 2px;
+    color: #fff;
 }
+
+.navibarbutton > a {
+    color: #fff;
+}
+
+a:hover > .fa {
+    color: #db0166;
+}
+
+#navibar {
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    #background: #1a1a1a;
+    box-shadow: grey 5px 0px 5px;
+    z-index: 9999;
+    padding-bottom: 5px;
+    background-image: url("http://www.freifunk-mk.de/gfx/ff_header.png");
+}
+
+#navcenter {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navibarbutton {
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 28px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3px;
+}
+
 /*Seitencontainer und Flexing*/
-.mainbox{
-	flex:3;
-	margin:10px;
+.mainbox {
+    flex: 3;
+    margin: 10px;
 }
-.splitbox{
-	flex:1;
-	#margin-top:20px;
+
+.splitbox {
+    flex: 1;
+    #margin-top: 20px;
 }
-.rightbar{
-	flex:1;
-	margin:10px;
+
+.rightbar {
+    flex: 1;
+    margin: 10px;
 }
+
 /*Boxdesign*/
-.contentbox, .headlinebox{
-	background:#ffffff;
-	box-shadow: #808080 5px 5px 5px;
-	padding-left:10px;
-	padding-right:10px;
-	padding-bottom:10px;
-	color:#444;
-}.contentbox{
-	#min-height:250px;
+.contentbox, .headlinebox {
+    background: #ffffff;
+    box-shadow: #808080 5px 5px 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color: #444;
 }
+
+.contentbox {
+    #min-height: 250px;
+}
+
 .contentbox:after {
     content: ".";
     display: block;
@@ -88,48 +102,56 @@ a:hover > .fa{
     clear: both;
     visibility: hidden;
 }
-.headlinebox{
-	padding-top:10px;
-	text-align:center;
-	font-size:28px;
+
+.headlinebox {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 28px;
 }
-h2{
-	background-repeat:no-repeat;
-	background:#db0166 !important;
-	color:white;
-	padding:5px;
-	margin-left:-10px;
-	margin-right:-10px;
-	margin-bottom:10px;
-	#height:40px;
-	line-height:1.5em
+
+h2 {
+    background-repeat: no-repeat;
+    background: #db0166 !important;
+    color: white;
+    padding: 5px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 10px;
+    #height: 40px;
+    line-height: 1.5em
 }
-.timestamp{
-	float:left;
-	margin-right:5px;
-	margin-bottom:5px;
-	background-color:rgba(0, 0, 0, 0.5);
-	#margin-right:-5px;
-	font-size:20px;
-	color:#fff;
+
+.timestamp {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    #margin-right: -5px;
+    font-size: 20px;
+    color: #fff;
 }
-.rightbar h2{
-	#height:40px;
+
+.rightbar h2 {
+    #height: 40px;
 }
-.artimg{
-	width:50%;
-	float:left;
-	max-width:200px;
-	margin-right:10px;
+
+.artimg {
+    width: 50%;
+    float: left;
+    max-width: 200px;
+    margin-right: 10px;
 }
-@media screen and (min-width:1100px){
-	.pagebox, .summit{
-		display:flex;
-	}
-	#left{
-	margin-right:10px;
-	}
-	#right{
-		margin-left:10px;
-	}
+
+@media screen and (min-width: 1100px) {
+    .pagebox, .summit {
+        display: flex;
+    }
+
+    #left {
+        margin-right: 10px;
+    }
+
+    #right {
+        margin-left: 10px;
+    }
 }

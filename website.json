@@ -1,198 +1,197 @@
 {
-	"settings":{
-		"title":"Freifunk Märkischer Kreis",
-		"url":"http://www.freifunk-mk.de",
-		"footer":"Freifunk Märkischer Kreis"
-	},
-	"contacts":[
-		{
-			"icon":"envelope-o",
-			"name":"info@freifunk-mk.de",
-			"url":"mailto:info@freifunk-mk.de"
-		},
-		{
-			"icon":"phone",
-			"name":"023716582603",
-			"url":"tel:+4923716582603"
-		},
-		{
-			"icon":"comments-o",
-			"name":"#chaosconsulting@freenode.net",
-			"url":"https://webchat.freenode.net/?randomnick=1&channels=%23chaosconsulting&uio=d4"
-		},
-		{
-			"icon":"facebook",
-			"name":"Freifunk Altena auf Facebook",
-			"url":"https://www.facebook.com/freifunkAL"
-		},
-		{
-			"icon":"facebook",
-			"name":"Freifunk Hemer auf Facebook",
-			"url":"https://www.facebook.com/freifunkhemer"
-		},
-		{
-			"icon":"facebook",
-			"name":"Freifunk Iserlohn auf Facebook",
-			"url":"https://www.facebook.com/freifunkiserlohn"
-		},
-		{
-			"icon":"facebook",
-			"name":"Freifunk Meinerzhagen auf Facebook",
-			"url":"https://www.facebook.com/freifunkkimz"
-		},
-		{
-			"icon":"github",
-			"name":"Github",
-			"url":"https://github.com/freifunk-mk/"
-		},
-		{
-			"icon":"globe",
-			"name":"Karte",
-			"url":"http://map.fichtenfunk.freifunk.ruhr/meshviewer/"
-		}
-	],
-	"navibar":[
-		{
-			"icon":"",
-			"name":"Home",
-			"url":"index.php"
-		},
-		{
-			"icon":"",
-			"name":"Karte",
-			"url":"map.php"
-		},
-		{
-			"icon":"",
-			"name":"Mitmachen",
-			"url":"contribute.php"
-		},
-		{
-			"icon":"",
-			"name":"Downloads",
-			"url":"downloads.php"
-		},
-		{
-			"icon":"",
-			"name":"Impressum",
-			"url":"contact.php"
-		}
-	],
-	"c0":[
-		{
-			"icon":"",
-			"headline":"Willkommen bei Freifunk im Märkischen Kreis",
-			"image":"",
-			"content":"<img src='gfx/ffhandy.png' style='float:left;margin-right:20px'>Freifunk ist ein von Bürgern für Bürger betriebenes funkbasiertes Computernetzwerk (WLAN). Ziel ist es, eine möglichst hohe Flächendeckung zu erreichen und damit jeder und jedem überall Zugang zu ermöglichen.<br>Ganz egal ob im Cafe, beim Einkaufen oder Zuhause: Du hast Empfang mit deinem Handy, Tablet oder Computer und das ganz ohne ständige Kosten.<br>Über die Stadt verteilt bauen Freiwillige geeignete Router auf, die sich untereinander Vernetzen und die Verbindung zwischen Nutzer und Internet herstellen.<br><br><div style='text-align:center'><b>Jeder kann mitmachen!</b></div><br><br><br><br><br>"
-		}
-	],
-	"contribute":[
-		{
-			"icon":"",
-			"headline":"Mitmachen - so einfach gehts",
-			"image":"",
-			"content":"<b>Du willst mitmachen? Super!</b><br><br>><b>Der richtige Router</b><br><br>Zunächst brauchst du einen geeigneten Router auf welchen du dann die Freifunk-Firmware, das Betriebssystem für deinen Router, installierst.<br>Keine Sorge, das ganze ist ein Kinderspiel! Zum Einstieg im <b>Innenbreich</b> eignet sich der TP-Link <b>WDR1043nd</b> (ca. 50 €, <b>Version 2</b> ) sehr gut.<br>Wenn du im <b>Außenbreich</b> (z.B. Spielplatz, größere Plätze, Linkstrecken usw.) einen Freifunk Router aufbauen möchtest empfehlen wir dir einen <b>TP-Link CPE210</b> ( ca. 60 € ) dieser wird per PoE mit Strom versorgt. <br>Passend zu dem Router lädst du dir hier die entsprechende<a href='http://freifunk-mk.de/downloads.php'> <b>Firmeware</b></a> für deine Stadt herunter (Achtung  -factory- nur für Router im Orginalzustand!).<br><br><b>Installation WDR1043</b><br>Router mit dem PC verbinden <br>Packe deinen neuen Router aus und verbinde ihn mit dem Netzwerkanschluss an deinem PC. Am Router nutz du eine der gelben Netzwerkanschlüsse, den blauen Anschluss brauchen wir später.<br>Du erreichst deinen Router unter der Adresse http://192.168.0.1 Die kreativen Benutzerdaten lauten jetzt admin/admin.<br>Unter System Tools -> Firmware Upgrade hast du nun die Möglichkeit deine gerade heruntergeladene neue Freifunk-Firmware auf dem Router zu installieren.<br>Nach der Installation startet der Router neu und ist nicht mehr unter seiner bisherigen Adresse ereichbar. Das soll auch so sein, denn jetzt ist dein Router schon ein Freifunk-Router. Du erreichst den Router jetzt unter http://192.168.1.1 Hier kannst du nun die gesamte Konfiguration vornehmen und dem Router einen Namen geben.<br><br><b>Installation CPE210 </b><br>Bei der CPE210 wird das PoE Netzteil mit dem Router per Netzwerkkabel verbunden ( Netzteil PoE Port - Router PoE Port ).<br>Nun Wird eine Verbinung mit vom Netzteil zur Netzwerkkarte am Computer hergestellt ( Lan - Lan ) <br>Nun erreichst du deinen Router unter der Adresse http://192.168.0.254. Die Benutzerdaten lauten jetzt admin/admin.<br>Unter System Tools -> Firmware Upgrade hast du nun die Möglichkeit deine gerade heruntergeladene neue Freifunk-Firmware auf dem Router zu installieren.<br>Nach der Installation startet der Router neu und ist nicht mehr unter seiner bisherigen Adresse ereichbar.<br> Das soll auch so sein, denn jetzt ist dein Router schon ein Freifunk-Router. Du erreichst den Router jetzt unter http://192.168.1.1 Hier kannst du nun die< gesamte Konfiguration vornehmen und dem Router einen Namen geben.<br><br><br><b>Name des Routers</b><br>Für uns im MK beginnen die Namen alle mit <b>FF-AL-, FF-HE-, FF-IS-</b> oder<b> FF-MZ-</b> daran solltest du jetzt den Namen deines Routers anfügen. Unser erster Router in Hemer hieß z.B. FF-HE-Filip87<br>Bitte verwende im Namen keine Umlaute oder Leerzeichen. Falls du ein Leerzeichen brauchen solltest verwende bitte den Bindestrich ( - ).<br><br><b>Mesh-VPN aktivieren</b><br>Hiermit erlaubst Du deinem Freifunk-Router über deinen Internetanschluss eine verschlüsselte Verbindung zu den Supernodes Deiner Community herzustellen.<br>Wenn du diese Option deaktivierst, kann der Router nur mit den Routern kommunizieren, die er direkt oder indirekt per WLAN oder über andere Router mit aktivierter Option erreicht. Der Zugang zum Internet ist dann nur möglich, wenn mindestens bei einem der erreichbaren Router die Option aktiviert ist.<br>Auch hier: Wir empfehlen diese Option in jedem Fall zu aktivieren, möglicherweise möchtest Du den Router bei Gelegenheit dann doch mit eigenem Internetzugang benutzen. Wenn kein Netzwerkkabel an ihm angeschlossen wird, dann hat er einfach keinen Internetzugang, die Funktion beeinträchtigt dies nicht!<br><br><b>Mesh-VPN Bandbreite begrenzen (optional)</b><br>Wenn du einen normalen Internet-Anschluss hast, brauchst du die Begrenzung nicht zu aktivieren. Dein Router wird im alltäglichen Betrieb nicht allzuviel von deiner Bandbreite in Anspruch nehmen.<br> Unsere Empfehlung ist deshalb, die Begrenzung nicht zu aktivieren. <br>Solltest du aber trotzdem eine Begrenzung eintragen wollen, setze den Haken “Mesh-VPN Bandbreite begrenzen?”. Daraufhin erscheinen zwei neue Felder.<br> Trage in die beiden Felder darunter die gewünschten Grenzen in Kbit/s ein. Die minimal sinnvollen Werte sind 2000 Downstream und 500 Upstream.<br> Sei nicht zu geizig, selbst wenn Du hier die hälfte Deiner verfügbaren Bandbreite einträgst, wirst Du dies kaum bemerken.<br><br><b>Knoten auf der Karte anzeigen</b><br>Diese Option sollte ausgewählt werden, um anderen Freifunkern und Interessierten die Position Deines Routers zur Verfügung zu stellen.<br>Bedenken um die Privatsphäre sollten hier ausnahmsweise keine Rolle spielen, denn Du möchtest doch mit vielen ein großes Netzwerk bauen.<br>Solltest Du Dich dennoch dagegen entscheiden wollen, dann lasse diese Option aus. Solltest Du sie aktivieren erscheinen zwei neue Felder für den Breitengrad und Längengrad. Surfe nun zum Ziel Deiner Wahl, um die Koordinaten zu bekommen, z.B. <a href='http://map.freifunk-ruhrgebiet.de'> <b>map.freifunk-ruhrgebiet.de</b></a>.<br> Suche Deinen Routerstandort in der Karte und verwende dann den Button oben Rechts mit der Funktion -> Koordinaten beim nächsten Klick anzeigen <- <br> um die Koordinaten angezeigt zu bekommen. Übertrage nun die Koordinaten in die Felder, fertig ist die Standortangabe Deines Routers.<br><br><b>Kontakt</b><br>Um Dich im Zweifelsfall erreichen zu können kannst Du hier Deine Email-Adresse angeben, natürlich nur wenn du möchtest.<br><br><b>Abschluss der Installation</b><br>Wenn Du das ganze Formular nun ausgefüllt hast kannst Du unterhalb des Formulars auf “Fertig” klicken.<br>Du wirst auf die letzte Seite weitergeleitet, während Dein Router nun bereits anfängt zu rebooten.<br>Glückwunsch, nun ist es fast geschafft.<br>Wenn Du einen Router mit mehreren Netzwerkports hast, Du dem Router eigenes Internet ermöglichen möchtest und bis zu diesem Zeitpunkt das Netzwerkkabel noch nicht auf den WAN Port (bei TP-Link blau) umkabeln musstest,<br> dann stecke nun das zum Internet gehende Netzwerkkabel in den WAN Port.<br><br> Nun kannst Du Dein eigenes Freifunknetz zum ersten Mal ausprobieren, viel Spaß.<br><br><br> Wenn noch weitere Fragen bestehen besuch uns doch im <a href='https://webchat.freenode.net/?randomnick=1&channels=%23chaosconsulting&uio=d4'><b>IRC-Chat</b></a><br><br> <br>Quelle: Freifunk-Ruhrgebiet (http://freifunk-ruhrgebiet.de/anleitung/)<br>"
-		}
-	],
-	"contact":[
-		{
-			"icon":"",
-			"headline":"Impressum",
-			"image":"amp.png",
-			"content": "<b>Angaben gemäß § 5 TMG:</b><p>Jonas Pöhler<br />Grüner Weg 79<br />58644 Iserlohn</p><b>Kontakt:</b><table><tr><td>Telefon:</td><td>023716582603</td></tr><tr><td>E-Mail:</td><td>info@freifunk-iserlohn.de</td></tr></table><b>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</b><p>Jonas Pöhler, Grüner Weg 79, 58644, Iserlohn</p><p> </p><p>Quelle: <em><a href='http://www.e-recht24.de'>http://www.e-recht24.de</a></em></p><h1>Haftungsausschluss (Disclaimer)</h1><p><strong>Haftung für Inhalte</strong></p> <p>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.</p> <p><strong>Haftung für Links</strong></p> <p>Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.</p> <p><strong>Urheberrecht</strong></p> <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p><p> </p>"
-		}
-	],
-	"projekte":[
-		{
-			"icon":"wifi",
-			"headline":"Das ist Freifunk",
-			"image":"",
-			"content":"<div class='vvid' style='height:300px'><iframe src='//player.vimeo.com/video/64814620?title=0&amp;byline=0&amp;portrait=0&amp;color=ff0166' width='100%' height='100%' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>"
-		},
-		
-		{
-			"icon":"heart",
-			"headline":"Unterstütze uns",
-			"image":"",
-			"content":"Wenn dir die Idee von Freifunk gefällt, dann erzähl deinen Freunden davon und stell einen Router bei dir auf.<br>Die Technik hinter Freifunk kostet uns Monatlich Geld, nur so können wir sicher stellen, dass du immer schnell surfen kannst und keine Sorge haben musst wenn du deinen Internetanschluss über Freifunk mit anderen teilst.<br>Wir würden uns sehr freuen wenn du den Betrieb der Freifunk Server mit einer kleinen Spende unterstützt."
-		},
-		{
-			"icon":"globe",
-			"headline":"Karte",
-			"image":"",
-			"content":"Hier kannst Du schauen wo es überall schon Freifunk gibt.<br><a haref='/map.php'><img src='gfx/map.png' width='100%'></a>"
-		}
-	],
-	"termine":[
-		{
-			"icon":"user",
-			"headline":"Flüchtlingsunterkunft versorgt",
-			"date":"20150731",
-			"image":"almelo.png",
-			"content":"Seit Montag versorgen wir die Flüchtlinge in der Almelohalle mit freiem WLAN. Für die knapp 150 dort Lebenden Menschen ist dies die einzige Möglichkeit kostenfrei mit ihren Angehörigen zu kommunizieren und sich über die Lage in ihrer Heimat zu informieren. Nur wenige Minuten nach der Installation nutzten bereits über 50 Menschen das Freifunk Netz vor Ort. Wir freuen uns zusammen mit Mike Kowalski von den Stadtwerken den Menschen den Aufenthalt in ihrer Unterkunft etwas angenehmer gestalten zu können."
-		},
-		{
-			"icon":"globe",
-			"headline":"Neue Karte Online",
-			"date":"20150720",
-			"image":"mesh.png",
-			"content":"Nun können wir euch auch die neue Karte für die Domäne Fichtenfunk präsentieren.<b><a href='http://map.fichtenfunk.freifunk.ruhr/meshviewer'>Hier</a></b> zu finden. In den nächsten Wochen werden die Router im Märkischen Kreis und in Siegen Wittgenstein automatisch in die neue Domäne umziehen und dann auch auf der neuen Karte erscheinen. "
-		},
-		{
-			"icon":"wifi",
-			"headline":"Neue Server",
-			"date":"20150714",
-			"image":"server.jpg",
-			"content":"Nach Wochen der Vorbereitung bekommt Freifunk im Märkischen Kreis zusammen mit Freifunk Siegerland eigene Server, die in den nächsten Tagen in Betrieb gehen werden. Mit der neuen Technik wird sich die Surfgeschwindigkeit an vielen Orten deutlich verbessern. Die neue Software steht für alle experimentierfreudigen zum Download bereit."
-		},
-		{
-			"icon":"wifi",
-			"headline":"Friedensfest versorgt",
-			"date":"20150630",
-			"image":"friedensfest.jpg",
-			"content":"Das Friedensfestival 2015 ist zu Ende gegangen. Viele Menschen haben bei wunderbarem Wetter ein tolles Programm genossen. Einige von ihnen haben dabei auch Freifunk genutzt. Wir konnten Spitzenlasten von bis zu 80 Nutzern gleichzeitig verzeichnen und über das ganze Wochenende haben etliche hundert Menschen das Netz genutzt um zu kommunizieren. Wir sind glücklich, dass das alles so gut geklappt hat und freuen uns schon auf das nächste Jahr "
-		},
-		{
-			"icon":"wifi",
-			"headline":"Bücherei Letmathe versorgt",
-			"date":"20150610",
-			"image":"hauslm.png",
-			"content":"Es stand zwar schon in der Zeitung jetzt auch noch hier, Haus Letmathe hat zu den Öffnungszeiten der Stadtbücherei Freifunk. Auch der angrenzende Park ist zumindest teilweise mit abgedeckt."
-		},
-		{
-			"icon":"wifi",
-			"headline":"Rathaus Iserlohn versorgt",
-			"date":"20150520",
-			"image":"rathausis.png",
-			"content":"Ganz egal ob bei der Mittagspause in der Kantine, im Wartebereich des Einwohnermeldeamts oder im Ratsaal, überall dort gibt es nun Freifunk. Dank der klasse Zusammenarbeit mit der Städtischen IT Abteilung sind nun viele Bereiche des Iserlohner Rathauses mit Freifunk versorgt. Obendrein versorgen zwei Richtantennen den Schillerplatz mit dem Freien Netz."
-		},
-		{
-			"icon":"wifi",
-			"headline":"Stadmuseum versorgt",
-			"date":"20150513",
-			"image":"museum.jpg",
-			"content":"Nicht nur um das Stadtmuseum herum wird gebaut, auch das Stadtmuseum selber hat ein Upgrade erfahren.<br>Zumindest hat es neben Kettenhemden jetzt auch Freifunk."
-		}
-	],
-	"mehr":[
-		{
-			"icon":"home",
-			"headline":"Home",
-			"image":"led.png",
-			"content":"!!contacts",
-			"url":"index.php"
-		},
-		{
-			"icon":"bar-chart",
-			"headline":"Status",
-			"image":"led.png",
-			"content":"!!freifunk<br><br><a href='http://stats.freifunk-mk.de'><i class='fa fa-bar-chart'></i> Mehr Statistiken</a>"
-		},
-		{
-			"icon":"thumbs-up",
-			"headline":"Unsere Unterstützer",
-			"image":"",
-			"content":"<div style='text-align:center'><b>Freifunk im Märkischen Kreis wird unterstützt durch:</b><br><br><a href='http://chaos-consulting.de'><img src='gfx/cc_header.png' style='width:100%'></a><br><br><a href='http://www.stadtwerke-iserlohn.de/'><img src='gfx/stadtwerke.png' style='width:100%'></a><br></div>"
-		}
-	]
+  "settings": {
+    "title": "Freifunk Märkischer Kreis",
+    "url": "http://www.freifunk-mk.de",
+    "footer": "Freifunk Märkischer Kreis"
+  },
+  "contacts": [
+    {
+      "icon": "envelope-o",
+      "name": "info@freifunk-mk.de",
+      "url": "mailto:info@freifunk-mk.de"
+    },
+    {
+      "icon": "phone",
+      "name": "023716582603",
+      "url": "tel:+4923716582603"
+    },
+    {
+      "icon": "comments-o",
+      "name": "#chaosconsulting@freenode.net",
+      "url": "https://webchat.freenode.net/?randomnick=1&channels=%23chaosconsulting&uio=d4"
+    },
+    {
+      "icon": "facebook",
+      "name": "Freifunk Altena auf Facebook",
+      "url": "https://www.facebook.com/freifunkAL"
+    },
+    {
+      "icon": "facebook",
+      "name": "Freifunk Hemer auf Facebook",
+      "url": "https://www.facebook.com/freifunkhemer"
+    },
+    {
+      "icon": "facebook",
+      "name": "Freifunk Iserlohn auf Facebook",
+      "url": "https://www.facebook.com/freifunkiserlohn"
+    },
+    {
+      "icon": "facebook",
+      "name": "Freifunk Meinerzhagen auf Facebook",
+      "url": "https://www.facebook.com/freifunkkimz"
+    },
+    {
+      "icon": "github",
+      "name": "Github",
+      "url": "https://github.com/freifunk-mk/"
+    },
+    {
+      "icon": "globe",
+      "name": "Karte",
+      "url": "http://map.fichtenfunk.freifunk.ruhr/meshviewer/"
+    }
+  ],
+  "navibar": [
+    {
+      "icon": "",
+      "name": "Home",
+      "url": "index.php"
+    },
+    {
+      "icon": "",
+      "name": "Karte",
+      "url": "map.php"
+    },
+    {
+      "icon": "",
+      "name": "Mitmachen",
+      "url": "contribute.php"
+    },
+    {
+      "icon": "",
+      "name": "Downloads",
+      "url": "downloads.php"
+    },
+    {
+      "icon": "",
+      "name": "Impressum",
+      "url": "contact.php"
+    }
+  ],
+  "c0": [
+    {
+      "icon": "",
+      "headline": "Willkommen bei Freifunk im Märkischen Kreis",
+      "image": "",
+      "content": "<img src='gfx/ffhandy.png' style='float:left;margin-right:20px'>Freifunk ist ein von Bürgern für Bürger betriebenes funkbasiertes Computernetzwerk (WLAN). Ziel ist es, eine möglichst hohe Flächendeckung zu erreichen und damit jeder und jedem überall Zugang zu ermöglichen.<br>Ganz egal ob im Cafe, beim Einkaufen oder Zuhause: Du hast Empfang mit deinem Handy, Tablet oder Computer und das ganz ohne ständige Kosten.<br>Über die Stadt verteilt bauen Freiwillige geeignete Router auf, die sich untereinander Vernetzen und die Verbindung zwischen Nutzer und Internet herstellen.<br><br><div style='text-align:center'><b>Jeder kann mitmachen!</b></div><br><br><br><br><br>"
+    }
+  ],
+  "contribute": [
+    {
+      "icon": "",
+      "headline": "Mitmachen - so einfach gehts",
+      "image": "",
+      "content": "<b>Du willst mitmachen? Super!</b><br><br>><b>Der richtige Router</b><br><br>Zunächst brauchst du einen geeigneten Router auf welchen du dann die Freifunk-Firmware, das Betriebssystem für deinen Router, installierst.<br>Keine Sorge, das ganze ist ein Kinderspiel! Zum Einstieg im <b>Innenbreich</b> eignet sich der TP-Link <b>WDR1043nd</b> (ca. 50 €, <b>Version 2</b> ) sehr gut.<br>Wenn du im <b>Außenbreich</b> (z.B. Spielplatz, größere Plätze, Linkstrecken usw.) einen Freifunk Router aufbauen möchtest empfehlen wir dir einen <b>TP-Link CPE210</b> ( ca. 60 € ) dieser wird per PoE mit Strom versorgt. <br>Passend zu dem Router lädst du dir hier die entsprechende<a href='http://freifunk-mk.de/downloads.php'> <b>Firmeware</b></a> für deine Stadt herunter (Achtung  -factory- nur für Router im Orginalzustand!).<br><br><b>Installation WDR1043</b><br>Router mit dem PC verbinden <br>Packe deinen neuen Router aus und verbinde ihn mit dem Netzwerkanschluss an deinem PC. Am Router nutz du eine der gelben Netzwerkanschlüsse, den blauen Anschluss brauchen wir später.<br>Du erreichst deinen Router unter der Adresse http://192.168.0.1 Die kreativen Benutzerdaten lauten jetzt admin/admin.<br>Unter System Tools -> Firmware Upgrade hast du nun die Möglichkeit deine gerade heruntergeladene neue Freifunk-Firmware auf dem Router zu installieren.<br>Nach der Installation startet der Router neu und ist nicht mehr unter seiner bisherigen Adresse ereichbar. Das soll auch so sein, denn jetzt ist dein Router schon ein Freifunk-Router. Du erreichst den Router jetzt unter http://192.168.1.1 Hier kannst du nun die gesamte Konfiguration vornehmen und dem Router einen Namen geben.<br><br><b>Installation CPE210 </b><br>Bei der CPE210 wird das PoE Netzteil mit dem Router per Netzwerkkabel verbunden ( Netzteil PoE Port - Router PoE Port ).<br>Nun Wird eine Verbinung mit vom Netzteil zur Netzwerkkarte am Computer hergestellt ( Lan - Lan ) <br>Nun erreichst du deinen Router unter der Adresse http://192.168.0.254. Die Benutzerdaten lauten jetzt admin/admin.<br>Unter System Tools -> Firmware Upgrade hast du nun die Möglichkeit deine gerade heruntergeladene neue Freifunk-Firmware auf dem Router zu installieren.<br>Nach der Installation startet der Router neu und ist nicht mehr unter seiner bisherigen Adresse ereichbar.<br> Das soll auch so sein, denn jetzt ist dein Router schon ein Freifunk-Router. Du erreichst den Router jetzt unter http://192.168.1.1 Hier kannst du nun die< gesamte Konfiguration vornehmen und dem Router einen Namen geben.<br><br><br><b>Name des Routers</b><br>Für uns im MK beginnen die Namen alle mit <b>FF-AL-, FF-HE-, FF-IS-</b> oder<b> FF-MZ-</b> daran solltest du jetzt den Namen deines Routers anfügen. Unser erster Router in Hemer hieß z.B. FF-HE-Filip87<br>Bitte verwende im Namen keine Umlaute oder Leerzeichen. Falls du ein Leerzeichen brauchen solltest verwende bitte den Bindestrich ( - ).<br><br><b>Mesh-VPN aktivieren</b><br>Hiermit erlaubst Du deinem Freifunk-Router über deinen Internetanschluss eine verschlüsselte Verbindung zu den Supernodes Deiner Community herzustellen.<br>Wenn du diese Option deaktivierst, kann der Router nur mit den Routern kommunizieren, die er direkt oder indirekt per WLAN oder über andere Router mit aktivierter Option erreicht. Der Zugang zum Internet ist dann nur möglich, wenn mindestens bei einem der erreichbaren Router die Option aktiviert ist.<br>Auch hier: Wir empfehlen diese Option in jedem Fall zu aktivieren, möglicherweise möchtest Du den Router bei Gelegenheit dann doch mit eigenem Internetzugang benutzen. Wenn kein Netzwerkkabel an ihm angeschlossen wird, dann hat er einfach keinen Internetzugang, die Funktion beeinträchtigt dies nicht!<br><br><b>Mesh-VPN Bandbreite begrenzen (optional)</b><br>Wenn du einen normalen Internet-Anschluss hast, brauchst du die Begrenzung nicht zu aktivieren. Dein Router wird im alltäglichen Betrieb nicht allzuviel von deiner Bandbreite in Anspruch nehmen.<br> Unsere Empfehlung ist deshalb, die Begrenzung nicht zu aktivieren. <br>Solltest du aber trotzdem eine Begrenzung eintragen wollen, setze den Haken “Mesh-VPN Bandbreite begrenzen?”. Daraufhin erscheinen zwei neue Felder.<br> Trage in die beiden Felder darunter die gewünschten Grenzen in Kbit/s ein. Die minimal sinnvollen Werte sind 2000 Downstream und 500 Upstream.<br> Sei nicht zu geizig, selbst wenn Du hier die hälfte Deiner verfügbaren Bandbreite einträgst, wirst Du dies kaum bemerken.<br><br><b>Knoten auf der Karte anzeigen</b><br>Diese Option sollte ausgewählt werden, um anderen Freifunkern und Interessierten die Position Deines Routers zur Verfügung zu stellen.<br>Bedenken um die Privatsphäre sollten hier ausnahmsweise keine Rolle spielen, denn Du möchtest doch mit vielen ein großes Netzwerk bauen.<br>Solltest Du Dich dennoch dagegen entscheiden wollen, dann lasse diese Option aus. Solltest Du sie aktivieren erscheinen zwei neue Felder für den Breitengrad und Längengrad. Surfe nun zum Ziel Deiner Wahl, um die Koordinaten zu bekommen, z.B. <a href='http://map.freifunk-ruhrgebiet.de'> <b>map.freifunk-ruhrgebiet.de</b></a>.<br> Suche Deinen Routerstandort in der Karte und verwende dann den Button oben Rechts mit der Funktion -> Koordinaten beim nächsten Klick anzeigen <- <br> um die Koordinaten angezeigt zu bekommen. Übertrage nun die Koordinaten in die Felder, fertig ist die Standortangabe Deines Routers.<br><br><b>Kontakt</b><br>Um Dich im Zweifelsfall erreichen zu können kannst Du hier Deine Email-Adresse angeben, natürlich nur wenn du möchtest.<br><br><b>Abschluss der Installation</b><br>Wenn Du das ganze Formular nun ausgefüllt hast kannst Du unterhalb des Formulars auf “Fertig” klicken.<br>Du wirst auf die letzte Seite weitergeleitet, während Dein Router nun bereits anfängt zu rebooten.<br>Glückwunsch, nun ist es fast geschafft.<br>Wenn Du einen Router mit mehreren Netzwerkports hast, Du dem Router eigenes Internet ermöglichen möchtest und bis zu diesem Zeitpunkt das Netzwerkkabel noch nicht auf den WAN Port (bei TP-Link blau) umkabeln musstest,<br> dann stecke nun das zum Internet gehende Netzwerkkabel in den WAN Port.<br><br> Nun kannst Du Dein eigenes Freifunknetz zum ersten Mal ausprobieren, viel Spaß.<br><br><br> Wenn noch weitere Fragen bestehen besuch uns doch im <a href='https://webchat.freenode.net/?randomnick=1&channels=%23chaosconsulting&uio=d4'><b>IRC-Chat</b></a><br><br> <br>Quelle: Freifunk-Ruhrgebiet (http://freifunk-ruhrgebiet.de/anleitung/)<br>"
+    }
+  ],
+  "contact": [
+    {
+      "icon": "",
+      "headline": "Impressum",
+      "image": "amp.png",
+      "content": "<b>Angaben gemäß § 5 TMG:</b><p>Jonas Pöhler<br />Grüner Weg 79<br />58644 Iserlohn</p><b>Kontakt:</b><table><tr><td>Telefon:</td><td>023716582603</td></tr><tr><td>E-Mail:</td><td>info@freifunk-iserlohn.de</td></tr></table><b>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</b><p>Jonas Pöhler, Grüner Weg 79, 58644, Iserlohn</p><p> </p><p>Quelle: <em><a href='http://www.e-recht24.de'>http://www.e-recht24.de</a></em></p><h1>Haftungsausschluss (Disclaimer)</h1><p><strong>Haftung für Inhalte</strong></p> <p>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.</p> <p><strong>Haftung für Links</strong></p> <p>Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.</p> <p><strong>Urheberrecht</strong></p> <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p><p> </p>"
+    }
+  ],
+  "projekte": [
+    {
+      "icon": "wifi",
+      "headline": "Das ist Freifunk",
+      "image": "",
+      "content": "<div class='vvid' style='height:300px'><iframe src='//player.vimeo.com/video/64814620?title=0&amp;byline=0&amp;portrait=0&amp;color=ff0166' width='100%' height='100%' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>"
+    },
+    {
+      "icon": "heart",
+      "headline": "Unterstütze uns",
+      "image": "",
+      "content": "Wenn dir die Idee von Freifunk gefällt, dann erzähl deinen Freunden davon und stell einen Router bei dir auf.<br>Die Technik hinter Freifunk kostet uns Monatlich Geld, nur so können wir sicher stellen, dass du immer schnell surfen kannst und keine Sorge haben musst wenn du deinen Internetanschluss über Freifunk mit anderen teilst.<br>Wir würden uns sehr freuen wenn du den Betrieb der Freifunk Server mit einer kleinen Spende unterstützt."
+    },
+    {
+      "icon": "globe",
+      "headline": "Karte",
+      "image": "",
+      "content": "Hier kannst Du schauen wo es überall schon Freifunk gibt.<br><a haref='/map.php'><img src='gfx/map.png' width='100%'></a>"
+    }
+  ],
+  "termine": [
+    {
+      "icon": "user",
+      "headline": "Flüchtlingsunterkunft versorgt",
+      "date": "20150731",
+      "image": "almelo.png",
+      "content": "Seit Montag versorgen wir die Flüchtlinge in der Almelohalle mit freiem WLAN. Für die knapp 150 dort Lebenden Menschen ist dies die einzige Möglichkeit kostenfrei mit ihren Angehörigen zu kommunizieren und sich über die Lage in ihrer Heimat zu informieren. Nur wenige Minuten nach der Installation nutzten bereits über 50 Menschen das Freifunk Netz vor Ort. Wir freuen uns zusammen mit Mike Kowalski von den Stadtwerken den Menschen den Aufenthalt in ihrer Unterkunft etwas angenehmer gestalten zu können."
+    },
+    {
+      "icon": "globe",
+      "headline": "Neue Karte Online",
+      "date": "20150720",
+      "image": "mesh.png",
+      "content": "Nun können wir euch auch die neue Karte für die Domäne Fichtenfunk präsentieren.<b><a href='http://map.fichtenfunk.freifunk.ruhr/meshviewer'>Hier</a></b> zu finden. In den nächsten Wochen werden die Router im Märkischen Kreis und in Siegen Wittgenstein automatisch in die neue Domäne umziehen und dann auch auf der neuen Karte erscheinen. "
+    },
+    {
+      "icon": "wifi",
+      "headline": "Neue Server",
+      "date": "20150714",
+      "image": "server.jpg",
+      "content": "Nach Wochen der Vorbereitung bekommt Freifunk im Märkischen Kreis zusammen mit Freifunk Siegerland eigene Server, die in den nächsten Tagen in Betrieb gehen werden. Mit der neuen Technik wird sich die Surfgeschwindigkeit an vielen Orten deutlich verbessern. Die neue Software steht für alle experimentierfreudigen zum Download bereit."
+    },
+    {
+      "icon": "wifi",
+      "headline": "Friedensfest versorgt",
+      "date": "20150630",
+      "image": "friedensfest.jpg",
+      "content": "Das Friedensfestival 2015 ist zu Ende gegangen. Viele Menschen haben bei wunderbarem Wetter ein tolles Programm genossen. Einige von ihnen haben dabei auch Freifunk genutzt. Wir konnten Spitzenlasten von bis zu 80 Nutzern gleichzeitig verzeichnen und über das ganze Wochenende haben etliche hundert Menschen das Netz genutzt um zu kommunizieren. Wir sind glücklich, dass das alles so gut geklappt hat und freuen uns schon auf das nächste Jahr "
+    },
+    {
+      "icon": "wifi",
+      "headline": "Bücherei Letmathe versorgt",
+      "date": "20150610",
+      "image": "hauslm.png",
+      "content": "Es stand zwar schon in der Zeitung jetzt auch noch hier, Haus Letmathe hat zu den Öffnungszeiten der Stadtbücherei Freifunk. Auch der angrenzende Park ist zumindest teilweise mit abgedeckt."
+    },
+    {
+      "icon": "wifi",
+      "headline": "Rathaus Iserlohn versorgt",
+      "date": "20150520",
+      "image": "rathausis.png",
+      "content": "Ganz egal ob bei der Mittagspause in der Kantine, im Wartebereich des Einwohnermeldeamts oder im Ratsaal, überall dort gibt es nun Freifunk. Dank der klasse Zusammenarbeit mit der Städtischen IT Abteilung sind nun viele Bereiche des Iserlohner Rathauses mit Freifunk versorgt. Obendrein versorgen zwei Richtantennen den Schillerplatz mit dem Freien Netz."
+    },
+    {
+      "icon": "wifi",
+      "headline": "Stadmuseum versorgt",
+      "date": "20150513",
+      "image": "museum.jpg",
+      "content": "Nicht nur um das Stadtmuseum herum wird gebaut, auch das Stadtmuseum selber hat ein Upgrade erfahren.<br>Zumindest hat es neben Kettenhemden jetzt auch Freifunk."
+    }
+  ],
+  "mehr": [
+    {
+      "icon": "home",
+      "headline": "Home",
+      "image": "led.png",
+      "content": "!!contacts",
+      "url": "index.php"
+    },
+    {
+      "icon": "bar-chart",
+      "headline": "Status",
+      "image": "led.png",
+      "content": "!!freifunk<br><br><a href='http://stats.freifunk-mk.de'><i class='fa fa-bar-chart'></i> Mehr Statistiken</a>"
+    },
+    {
+      "icon": "thumbs-up",
+      "headline": "Unsere Unterstützer",
+      "image": "",
+      "content": "<div style='text-align:center'><b>Freifunk im Märkischen Kreis wird unterstützt durch:</b><br><br><a href='http://chaos-consulting.de'><img src='gfx/cc_header.png' style='width:100%'></a><br><br><a href='http://www.stadtwerke-iserlohn.de/'><img src='gfx/stadtwerke.png' style='width:100%'></a><br></div>"
+    }
+  ]
 }
