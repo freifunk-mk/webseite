@@ -81,6 +81,13 @@ a:hover > .fa{
 }.contentbox{
 	#min-height:250px;
 }
+.contentbox:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
 .headlinebox{
 	padding-top:10px;
 	text-align:center;
