@@ -125,11 +125,25 @@
 	],
 	"termine":[
 		{
-                        "icon":"wifi",
+                        "icon":"map-o",
+                        "headline":"Neue Karten",
+                        "date":"20160131",
+                        "image":"newmap.png",
+                        "content":"Mit den Neuen Servern kommen auch neue Karten. Unter <a href='http://map.freifunk-mk.de'>map.freifunk-mk.de</a> lassen sich nun Karten und Statistiken für ALtena, Iserlohn und Meinerzhagen abrufen, weitere folgen. Viele haben uns gefragt wie viel ihr Freifunk Router denn nun genutzt wird. In den neuen Karten werden für jeden Router die Nutzerzahl, Datenvolumen und Laufzeit grafisch dargestellt. Darüber hinaus lassen sich die angezeigte Router nach unterschiedlichen Kriterien wie zum Beispiel dem Modell oder der Firmware filtern.<br>Wir hoffen Freifunk ist dait für Euch wieder ein Stück transparenter geworden."
+                },
+		{
+                        "icon":"server",
+                        "headline":"Mehr Geschwindigkeit im MK",
+                        "date":"20160125",
+                        "image":"server.jpg",
+                        "content":"Nachdem in Iserlohn mittlerweile die meisten Router auf die neuen Server umgezogen sind bekommen auch andere Städte im Märkischen Kreis neue Infrastruktur. Altena und Meinerzhagen sind gerade im Umzug befindlich, Hemer und Neuenrade werden in den nächsten Wochen folgen. Wenn ihr in diesen Städten neue Router einrichtet, dann ladet bitte die Tagesaktuelle Firmware aus unserem Downloadbereich herunter.<br>Mit den neuen Servern und der neuen Software verbessert sich die Geschwindigkeit in den angeschlossenen Städten.<br>Unser Dank gilt allen Spendern die uns dies ermöglichen!"
+                },
+		{
+                        "icon":"server",
                         "headline":"2 neue Server für Iserlohn",
                         "date":"20160113",
                         "image":"server.jpg",
-                        "content":"Iserlohn bekommt 2 neue Server, die Router bekommen in den nächsten Tagen die neue Software per autoupdate eingespielt."
+                        "content":"Iserlohn bekommt 2 neue Server, die Router bekommen in den nächsten Tagen die neue Software per Autoupdate eingespielt."
                 },
 		{
 			"icon":"user",
