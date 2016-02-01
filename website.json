@@ -211,6 +211,12 @@
 			"url":"index.php"
 		},
 		{
+			"icon":"bar-chart",
+			"headline":"Statistiken",
+			"image":"",
+			"content":"<a href='http://map.freifunk-mk.de'><img src='https://map.eulenfunk.de/stats/render/dashboard-solo/db/global?panelId=1&fullscreen&var-job=ffis&width=400&height=250' width='100%'></a>"
+		},
+		{
 			"icon":"thumbs-up",
 			"headline":"Unsere Unterstützer",
 			"image":"",
